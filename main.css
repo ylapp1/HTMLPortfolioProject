@@ -1,0 +1,47 @@
+body {
+  background: darkslategray;
+}
+
+h1, h2, h3, p, li {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  font-family: Helvetica, Arial, serif;
+}
+
+h1, h2, h3, p {
+  margin: 0 0 5px 10px;
+}
+
+h1 {
+  font-size: 35px;
+  color: yellow;
+}
+h2 {
+  font-size: 27px;
+  color: greenyellow;
+}
+h3 {
+  font-size: 20px;
+  color: darkorange;
+}
+
+p {
+  font-size: 20px;
+  color: lightgoldenrodyellow;
+}
+
+.skills li {
+  font-size: 20px;
+  list-style-type: circle;
+  color: tomato;
+}
+
+.contact a {
+  color: cyan;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: black;
+  background: cyan;
+}
