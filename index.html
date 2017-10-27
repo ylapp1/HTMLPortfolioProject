@@ -4,39 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="main.js"></script>
+    <title>HTML Portfolio</title>
 </head>
 <body>
 
-  <div class="main">
-      <div class="header">
-        <h1>My Name</h1>
-        <h2>Software Developer</h2>
+  <header>
+    <h1>Yannick</h1>
+    <h2>Software Developer</h2>
+  </header>
+
+  <main>
+      <div class="tagline">
+        <h3 class="sectionTitle">Learn More About Me</h3>
+        <p>Hello</p>
       </div>
 
-      <div class="content">
-
-          <div class="tagline">
-            <h3>Learn More About Me</h3>
-            <p>Hello</p>
-          </div>
-
-          <div class="skills">
-            <h3>My skills</h3>
-            <p>I enjoy writing front-end code with these technologies:</p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>PHP</li>
-            </ul>
-          </div>
-
-          <div class="contact">
-            <h3>Contact me</h3>
-            <p>Send me an E-Mail to 1@1.1 or <a href="https://www.github.com/ylapp1">visit my Github profile</a></p>
-          </div>
+      <div class="skills">
+        <h3 class="sectionTitle">My skills</h3>
+        <p>I enjoy writing front-end code with these technologies:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+        </ul>
       </div>
-  </div>
+
+      <div class="completed-courses">
+          <h3 class="sectionTitle">I completed these codeschool courses:</h3>
+          <div id="badges"></div>
+      </div>
+
+      <div class="contact">
+        <h3 class="sectionTitle">Contact me</h3>
+        <p>Send me an E-Mail to 1@1.1 or <a href="https://www.github.com/ylapp1">visit my Github profile</a></p>
+      </div>
+  </main>
 
 </body>
 </html>
